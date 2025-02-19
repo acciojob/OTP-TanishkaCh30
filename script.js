@@ -1,6 +1,5 @@
 let boxes = document.querySelectorAll(".code");
 boxes.forEach((box,index) =>{
-	boxes[0].focus();
 	box.addEventListener("input" , () =>{
 		if(box.value){
 			if(index<boxes.length){
