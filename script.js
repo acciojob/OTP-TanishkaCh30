@@ -12,7 +12,7 @@ boxes.forEach((box,index) =>{
 		let pressedKey = e.key;
 		if(pressedKey==='Backspace'){
 			e.preventDefault();
-			box.value=" ";
+			box.value="";
 			if(index>0){
 			boxes[index-1].focus();
 			}
